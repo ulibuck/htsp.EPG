@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.htsp.EPG" name="htsp.EPG" version="0.1.0" provider-name="Ulrich Buck">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">EPG and recordings on Tvheadend</summary>
+		<description lang="en">A basic Tvheadend client without live TV functionality.[CR]Get EPG and manage recordings on a Tvheadend server.[CR]Basic user interface with separate selection lists for channels and EPG entries and yes/no dialogs for scheduling/cancelling/deleting recordings.[CR]Recording indications in front of list entries:[CR][error message, if any]-[recording status][CR]    [R] = recording[CR]    [S] = scheduled[CR]    [C] = completed[CR]    [M] = missed</description>
+		<disclaimer lang="en_GB">This is unstable software! The author is in no way responsible for failed or deleted recordings, incorrect timers, wasted hours, or any other undesirable effects.</disclaimer>
+		<disclaimer lang="de_DE">Dies ist instabile Software! Der Autor ist in keiner Weise verantwortlich für fehlgeschlagene oder gelöschte Aufnahmen, falsche Timer, verschwendete Zeit oder andere ungewünschte Effekte.</disclaimer>
+		<license>GNU General Public License, v3</license>
+		<platform>all</platform>
+		<language></language>
+		<forum></forum>
+		<source>https://github.com/ulibuck/script.htsp.EPG</source>
+		<email></email>
+	</extension>
+</addon>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="30000">
+	<setting id="host" type="text" label="30001" default="127.0.0.1" />
+	<setting id="http_port" type="number" option="int" label="30002" default="9981" />
+	<setting id="htsp_port" type="number" option="int" label="30003" default="9982" />
+	<setting id="user" type="text" label="30004" default="" />
+	<setting id="pass" type="text" label="30005" option="hidden" enable="!eq(-1,)" default="" />
+	<setting id="sock_timeout" type="slider" option="float" range="0.1,0.1,2.0" label="30006" default="0.2" />
+	<!--<setting id="sock_long_timeout" type="slider" option="float" range="0.1,0.1,5.0" label="30007" default="1.0" />-->
+  </category>
+</settings>
