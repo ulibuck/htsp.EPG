@@ -1,5 +1,5 @@
 # script.htsp.EPG
-## Inofficial Kodi Add-on for EPG and recordings on Tvheadend.
+## Unofficial Kodi Add-on for EPG and recordings on Tvheadend.
 A basic Tvheadend client without live TV functionality.
 
 Get EPG and manage recordings on a Tvheadend server.
